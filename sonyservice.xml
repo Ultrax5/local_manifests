@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--- Sony device related common repos - no devices or kernels -->
+<!--- Repositories needed for HuaShan locked bootloader building -->
  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0" />
  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0" />
  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
- <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+ <project path="vendor/sony" name="Ultrax5/android_vendor_sony" remote="github" revision="master" />
+ <project path="device/sony/huashan" name="Ultrax5/android_device_sony_huashan" remote="github" revision="cm-11.0" />
 </manifest>
